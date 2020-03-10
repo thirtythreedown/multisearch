@@ -1,5 +1,8 @@
 #! python3
 
+##Command line tool to open several search engines in web browser with the same keywords
+##Usage example: multisearch.py baby yoda stl
+
 import webbrowser, sys, pyperclip
 
 def duck_url(arguments):
